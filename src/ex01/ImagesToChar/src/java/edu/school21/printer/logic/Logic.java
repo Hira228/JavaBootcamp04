@@ -21,7 +21,7 @@ public class Logic {
         }
     }
     public byte[][] seeBMPImage() throws IOException {
-        File image = new File("./target/resourse/it.bmp");
+        File image = new File("./target/resource/it.bmp");
         BufferedImage bufferedImage = ImageIO.read(image);
         byte[][] arr = new byte[bufferedImage.getWidth()][bufferedImage.getHeight()];
         for(int i = 0; i < bufferedImage.getWidth(); ++i) {
