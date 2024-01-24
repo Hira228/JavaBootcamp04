@@ -1,9 +1,9 @@
 package edu.school21.printer.application;
-import edu.school21.printer.logic.Logic;
+
 
 public class ConsoleImageConverter {
     public static void main(String[] args) {
-        Logic logic = new Logic();
+        edu.school21.printer.logic.Logic logic = new edu.school21.printer.logic.Logic();
         logic.printImage();
     }
 }
